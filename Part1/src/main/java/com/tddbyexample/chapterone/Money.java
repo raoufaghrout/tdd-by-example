@@ -2,8 +2,8 @@ package com.tddbyexample.chapterone;
 
 public class Money implements Expression {
 
-    protected int amount;
-    protected String currency;
+    final int amount;
+    private final String currency;
 
     public Money(int amount, String currency) {
         this.amount = amount;

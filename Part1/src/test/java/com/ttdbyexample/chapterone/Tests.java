@@ -74,6 +74,7 @@ public class Tests {
 
     @Test
     public void testArrayEquals() {
+        // noinspection deprecation
         assertEquals(new Object[]{"abc"}, new Object[]{"abc"});
     }
 

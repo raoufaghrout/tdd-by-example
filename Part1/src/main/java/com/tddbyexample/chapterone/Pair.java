@@ -1,9 +1,9 @@
 package com.tddbyexample.chapterone;
 
-public class Pair {
+class Pair {
 
-    private String from;
-    private String to;
+    private final String from;
+    private final String to;
 
     public Pair(String from, String to) {
         this.from = from;

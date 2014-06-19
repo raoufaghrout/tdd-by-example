@@ -2,8 +2,8 @@ package com.tddbyexample.chapterone;
 
 public class Sum implements Expression {
 
-    public Expression augend;
-    public Expression addend;
+    public final Expression augend;
+    public final Expression addend;
 
     public Sum(Expression augend, Expression addend) {
         this.augend = augend;
